@@ -50,8 +50,8 @@ const clientSchema = new mongoose.Schema({
 
   idcc: {
     type: String,
-    required: [true, 'A society must have an IDCC number'],
     trim: true,
+    default: '',
   },
 
   idOpco: {

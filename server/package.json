@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "import:clients": "node server.js --import-clients",
+    "delete:clients": "node server.js --delete-clients"
   },
   "author": "El Alami Idriss",
   "license": "ISC",
