@@ -6,8 +6,6 @@ const clients = JSON.parse(
   fs.readFileSync('./data/json/opcommerce-clean.json_2.json', 'utf-8')
 );
 
-console.log(clients);
-
 // Connect to DB
 const connectDB = async (url) => {
   try {
